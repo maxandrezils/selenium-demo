@@ -33,7 +33,10 @@ class TestNegativeScenarios:
     def test_negative_username(
         self, driver, username, password, expected_error_message
     ):
-
+        """
+        It navigates to the test site, enters the username and password, clicks the submit button, and
+        then confirms that the error message is displayed
+        """
         # 1. Navigate to the test site
         driver.get("https://practicetestautomation.com/practice-test-login")
         # 2. Enter the username
