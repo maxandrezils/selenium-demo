@@ -1,1 +1,5 @@
 import pytest
+
+
+class TestExceptions:
+    

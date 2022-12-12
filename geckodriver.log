@@ -330,3 +330,15 @@ UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadabl
 UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
 1670698785065	Marionette	INFO	Stopped listening on port 49279
 1670698785313	Marionette	INFO	Stopped listening on port 49280
+1670711808472	geckodriver	INFO	Listening on 127.0.0.1:52018
+1670711808890	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52019" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c2/gxpwcm6n1ps3bpfcqb_xnbgr0000gp/T/rust_mozprofile726Ner"
+1670711809441	Marionette	INFO	Marionette enabled
+1670711809475	Marionette	INFO	Listening on port 52024
+WebDriver BiDi listening on ws://localhost:52019
+Read port: 52024
+1670711809604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c2/gxpwcm6n1ps3bpfcqb_xnbgr0000gp/T/rust_mozprofile726Ner/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52019/devtools/browser/1869456a-5017-439b-89ff-9334dce1a08e
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1670711819746	Marionette	INFO	Stopped listening on port 52024
+!!! error running onStopped callback: TypeError: callback is not a function
